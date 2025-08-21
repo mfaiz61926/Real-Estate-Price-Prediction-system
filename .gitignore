@@ -1,0 +1,49 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints (if you add notebooks later)
+.ipynb_checkpoints/
+
+# Ignore system files (Windows / Mac)
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Optional: ignore model files if you don’t want to push them
+# *.pkl
+# 🔑 Secret keys & credentials
+*.env
+.env.*
+*.secret
+*.json
+*.pem
+*.key
+
+# 🔐 Config files with private info
+config.yaml
+settings.py
+credentials/
+
+# 🗄️ Databases & large files
+*.db
+*.sqlite
+*.sqlite3
+
+# 📦 Virtual environments & caches
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🖼️ System junk files
+.DS_Store
+Thumbs.db
